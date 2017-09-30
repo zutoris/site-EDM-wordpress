@@ -13,6 +13,6 @@
 		</section>
 
 		<section id="masonryContainer" class="content">
-			<?php get_template_part( 'part' , 'content' ); ?>
+			<?php get_template_part( 'part' , 'contentMain' ); ?>
 		</section>
 <?php get_footer(); ?>
