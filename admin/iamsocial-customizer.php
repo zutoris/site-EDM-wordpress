@@ -43,6 +43,7 @@ function iamsocial_customize_register( $wp_customize ) {
 							'ocean' 	=> __( 'Expert Entrepreneur', 'iamsocial' ),
 							'sunrise' 	=> __( 'Zen Entrepreneur', 'iamsocial' ),
 							'forest' 	=> __( 'Eco Entrepreneur', 'iamsocial' ),
+							'nuage'  	=> __( 'Le musicien sautronnais', 'iamsocial' ),
 						),
 				)
 			)
@@ -472,6 +473,15 @@ function iamsocial_load_css_colors() {
 						'title' => __( 'sunrise', 'iamsocial' ),
 						'file' => 'sunrise.css',
 						'primary' => '#b43c38',
+						'secondary' => '#ed332c',
+						'complementary' => '#dd823b',
+						'complementary_2' => '#ccaf0b',
+				),
+				'nuage' => array(
+						'name' => 'nuage',
+						'title' => __( 'nuage', 'iamsocial' ),
+						'file' => 'nuage.css',
+						'primary' => '#435a6b',
 						'secondary' => '#ed332c',
 						'complementary' => '#dd823b',
 						'complementary_2' => '#ccaf0b',
